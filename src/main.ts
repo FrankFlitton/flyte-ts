@@ -1,24 +1,32 @@
-import './style.css'
-import typescriptLogo from './typescript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.ts'
+import { AdminServiceApi } from "./flyteadmin/api.ts";
 
-document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://www.typescriptlang.org/" target="_blank">
-      <img src="${typescriptLogo}" class="logo vanilla" alt="TypeScript logo" />
-    </a>
-    <h1>Vite + TypeScript</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite and TypeScript logos to learn more
-    </p>
-  </div>
-`
+const basePath = "http://localhost:30080";
+const flyteAdmin = new AdminServiceApi({ basePath });
 
-setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+export function setupData(element: HTMLButtonElement) {
+  const setData = (data: string) => {
+    element.innerHTML = `data is ${data}`;
+  };
+  element!.innerHTML = "Loading...";
+
+  try {
+    flyteAdmin
+      .listProjects()
+      .then((res) => res.projects)
+      .then((projects) => {
+        setData(projects![0]?.id ?? "No projects found");
+      });
+  } catch (err) {
+    console.log(err);
+    throw err;
+  }
+}
+document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
+<div>
+<h1>Vite + TypeScript</h1>
+<p id="data">
+</p>
+</div>
+`;
+
+setupData(document.querySelector<HTMLButtonElement>("#data")!);

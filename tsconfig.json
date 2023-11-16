@@ -13,6 +13,7 @@
     "isolatedModules": true,
     "noEmit": true,
     "esModuleInterop": true,
+    "allowJs": true,
 
     /* Linting */
     "strict": true,
@@ -20,5 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "generated", "vite.config.js", "vite-env.d.ts"]
+  "include": ["src", "vite.config.js", "vite-env.d.ts"],
+  "exclude": ["src/flyteadmin/**/*.ts"]
 }
