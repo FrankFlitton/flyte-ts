@@ -1,4 +1,4 @@
-import { AdminServiceApi } from "./flyteadmin/api.ts";
+import { AdminServiceApi } from "../flyteadmin/api.ts";
 
 const basePath = "http://localhost:30080";
 const flyteAdmin = new AdminServiceApi({ basePath });

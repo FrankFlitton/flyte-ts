@@ -1,4 +1,4 @@
-// @ts-ignore
+/* tslint:disable:ts(2790) */
 /// <reference path="./custom.d.ts" />
 // tslint:disable
 /**
