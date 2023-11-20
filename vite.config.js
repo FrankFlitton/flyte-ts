@@ -18,6 +18,7 @@ export default defineConfig({
       width: 60,
     }),
   ],
+  base: '',
   output: {
     exports: "named",
   },
@@ -72,7 +73,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, "src/main.ts"),
       fileName: "main",
-      name: "dateSearch",
+      name: "flyte-ts",
       formats: ["es", "cjs", "umd"],
     },
     rollupOptions: {

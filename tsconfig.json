@@ -23,5 +23,4 @@
     "strictNullChecks": false // generated code has "The operand of a 'delete' operator must be optional" errors
   },
   "include": ["src", "vite.config.js", "vite-env.d.ts"],
-  "exclude": ["src/flyteadmin/**/*.ts"]
 }

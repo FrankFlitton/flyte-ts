@@ -1,5 +1,5 @@
 /* tslint:disable:ts(2790) */
-/// <reference path="./custom.d.ts" />
+// @ts-ignore
 // tslint:disable
 /**
  * flyteidl/service/admin.proto
