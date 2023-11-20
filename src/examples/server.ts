@@ -3,7 +3,6 @@ import { AdminServiceApi } from "../flyteadmin/api.ts";
 const basePath = "http://localhost:30080";
 const flyteAdmin = new AdminServiceApi({ basePath });
 
-// .listProjects(0, authToken, filters, "name", "DESCENDING", {})
 const main = async () => {
   try {
     const projects = (await flyteAdmin.listProjects()).projects;
