@@ -6547,6 +6547,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6598,6 +6599,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6649,6 +6651,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6700,6 +6703,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6751,6 +6755,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6802,6 +6807,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6853,6 +6859,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6919,6 +6926,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -6994,6 +7002,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7079,6 +7088,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7150,6 +7160,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7243,6 +7254,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7308,6 +7320,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7373,6 +7386,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7444,6 +7458,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7530,6 +7545,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7613,6 +7629,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7697,6 +7714,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7781,6 +7799,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7841,6 +7860,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7910,6 +7930,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -7996,6 +8017,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8172,6 +8194,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8348,6 +8371,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8379,6 +8403,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8465,6 +8490,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8544,6 +8570,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8622,6 +8649,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8735,6 +8763,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8844,6 +8873,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -8934,6 +8964,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9018,6 +9049,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9113,6 +9145,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9203,6 +9236,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9251,6 +9285,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9354,6 +9389,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9473,6 +9509,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9700,6 +9737,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9764,6 +9802,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9893,6 +9932,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -9977,6 +10017,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10071,6 +10112,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10161,6 +10203,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10245,6 +10288,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10340,6 +10384,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10430,6 +10475,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10475,6 +10521,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10526,6 +10573,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10577,6 +10625,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10662,6 +10711,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10744,6 +10794,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10836,6 +10887,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10936,6 +10988,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -10999,6 +11052,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -11063,6 +11117,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -11141,6 +11196,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
@@ -11232,6 +11288,7 @@ export const AdminServiceApiFetchParamCreator = function (
         options.query
       );
       // fix override query string Detail: https://stackoverflow.com/a/7517673/1077943
+      // @ts-expect-error generated code path
       delete localVarUrlObj.search;
       localVarRequestOptions.headers = Object.assign(
         {},
